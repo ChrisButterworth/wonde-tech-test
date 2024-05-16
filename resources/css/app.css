@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-stone-100;
+    }
+    main {
+        @apply w-full max-w-screen-md mx-auto p-8;
+
+        
+    }
+
+    h1 {
+        @apply text-2xl;
+    }
+    a {
+        @apply underline text-blue-500;
+    }
+}
